@@ -1,1 +1,12 @@
-chmod +x archappinstall.sh
+
+In my daily routine, I perform approximately four to five Arch installs. However, I found myself repeatedly installing the same applications, which became tedious.
+
+While there are numerous scripts available online that offer similar functionality, I sought a distinct approach that would allow me to separate my applications.
+
+I am sharing this script here in the hope that it may be of assistance to others.
+
+The provided lists contain the applications I require. Please feel free to modify them to better suit your specific needs.
+
+To utilize this script, follow these steps:
+1. chmod +x archappinstall.sh
+2. ./archappinstall.sh
