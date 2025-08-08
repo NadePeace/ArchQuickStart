@@ -6,7 +6,3 @@ While there are numerous scripts available online that offer similar functionali
 I am sharing this script here in the hope that it may be of assistance to others.
 
 The provided lists contain the applications I require. Please feel free to modify them to better suit your specific needs.
-
-To utilize this script, follow these steps:
-1. chmod +x archappinstall.sh
-2. ./archappinstall.sh
