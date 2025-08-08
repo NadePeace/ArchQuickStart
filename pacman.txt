@@ -1,10 +1,7 @@
-base-devel
 git
 curl
 cups
 samba
-reflector
-rsync
 wget
 zip
 unzip
@@ -12,12 +9,10 @@ vim
 man
 net-tools
 dnsutils
-firefox
 flatpak
 discord
 nano
 vlc
-discord
 fastfetch
 intel-ucode
 bash-completion
