@@ -32,6 +32,7 @@ done < pacman.txt
 if ! command -v yay &> /dev/null; then
     echo "Installing yay (AUR helper)..."
     sudo pacman -S --noconfirm --needed base-devel git
+    sudo -u "$SUDO_USER"
     temp_dir=$(mktemp -d)
     git clone https://aur.archlinux.org/yay.git "$temp_dir/yay"
     cd "$temp_dir/yay" || { echo "Failed to navigate to yay directory. Exiting..."; exit 1; }
