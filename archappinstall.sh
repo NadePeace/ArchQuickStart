@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Check for root permissions
-if [[ $EUID -ne 0 ]]; then
-    echo "This script must be run as root. Exiting..."
-    exit 1
-fi
-
 # Log output
 exec > >(tee -i install.log)
 exec 2>&1
@@ -32,7 +26,6 @@ done < pacman.txt
 if ! command -v yay &> /dev/null; then
     echo "Installing yay (AUR helper)..."
     sudo pacman -S --noconfirm --needed base-devel git
-    sudo -u "$SUDO_USER"
     temp_dir=$(mktemp -d)
     git clone https://aur.archlinux.org/yay.git "$temp_dir/yay"
     cd "$temp_dir/yay" || { echo "Failed to navigate to yay directory. Exiting..."; exit 1; }
