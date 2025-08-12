@@ -1,3 +1,5 @@
 visual-studio-code-bin
 zen-browser-bin
+brother-mfc-l2710dw
+brlaser
 octopi
