@@ -3,9 +3,6 @@ curl
 cups
 samba
 wget
-zip
-unzip
-vim
 man
 net-tools
 dnsutils
