@@ -12,6 +12,7 @@ vlc
 fastfetch
 intel-ucode
 bash-completion
+system-config-printer
 noto-fonts
 noto-fonts-extra
 ttf-bitstream-vera
