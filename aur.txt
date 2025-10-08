@@ -1,4 +1,3 @@
 visual-studio-code-bin
 brother-mfc-l2710dw
 brlaser
-octopi
